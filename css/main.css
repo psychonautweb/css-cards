@@ -1,0 +1,432 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 10px;
+    width: 100%;
+    background-color: #74b9ff;
+    margin: 0px auto;
+
+}
+
+.twitter-practice {
+    max-width: 440px;
+    margin: 0px auto;
+    padding: 0px;
+
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 5px 11px 40px 5px;
+    border-radius: 5px;
+}
+
+.cover {
+    max-width: 440px;
+    height: 220px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.profile-container {
+    display: flex;
+    flex-flow: column;
+    border-bottom: solid 1.5px rgb(204, 201, 201);
+    background-color: rgb(255, 255, 255);
+}
+
+.profile-img  {
+    width: 100%;
+    height: 115px;
+    max-width: 115px;
+    margin-top: -71px;
+    margin-left: 15px;
+    border: solid white;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-flow: row;
+}
+
+.profile-description {
+    padding: 0px;
+    margin: 0px;
+}
+
+.profile-description h3 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 3px;
+    margin-bottom: 0px;
+}
+
+.location img {
+    color-interpolation-filters: rgb(167, 166, 166);
+}
+
+.location p {
+    color: rgb(118, 118, 122);
+}
+
+.location {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 8px;
+
+    height: 25px;
+}
+
+/* .location img {
+     height: 100%; 
+} */
+
+.twitter-buttons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    gap: 35px;
+    margin: 20px 0px;
+}
+
+.btn-follow {
+    height: 35px;
+    width: 100%;
+    max-width: 180px;
+    border: 1px;
+    border-radius: 30px;
+    background-color: #3498db;
+    font-weight: bolder;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.btn-msg {
+        height: 35px;
+        width: 100%;
+        max-width: 180px;
+        border: 2px solid rgba(165, 163, 163, 0.548);
+        border-radius: 30px;
+        background-color: #ffffff;
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        font-size: 14px;
+        cursor: pointer;
+
+
+}
+
+.followers-container {
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.followers-count {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 15px;
+    gap: 10px;
+    color: rgb(75, 74, 74);
+}
+
+.followers-images {
+    display: flex;
+    flex-direction: row-reverse;
+
+    width: 420px;
+}
+
+.avatar {
+    height: 49px ;
+    margin: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px ;
+    position: relative ;
+    width: 37px ;
+
+}
+
+
+.avatar img {
+    background-color: #596376 ;
+    border: 2px solid #ffffff ;
+    border-radius: 100px 100px 100px 100px ;
+    display: block ;
+    height: 40px ;
+    width: 40px ;
+}
+
+.more-users p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(166, 172, 166, 0.733);
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+
+/* amsterdam card */
+
+.amsterdam-card {
+    margin: 15px auto;
+    background-color: white;
+    max-width: 660px;
+
+    display: flex;
+    flex-direction: row;
+    /* gap: 0px; */
+
+    box-shadow: 5px 11px 40px 5px;
+    border-radius: 5px;
+}
+
+.amsterdam-card img {
+    max-height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.amsterdam-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.amsterdam-top {
+    height: 50%;
+    padding: 0px 15px;
+
+}
+
+.amsterdam-top h3 {
+    font-weight: 850;
+}
+
+.amsterdam-top p {
+    color: gray;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+.amsterdam-booknow {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 243, 245);
+    height: 50%;
+    padding: 10px 15px;
+
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+.btn-booknow {
+    height: 35px;
+    width: 100px;
+    border: 1px solid #6c5ce7;
+    border-radius: 7px;
+    background-color: #6c5ce7;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+
+    align-self: baseline;
+    cursor: pointer;
+
+}
+
+.checked {
+    color: green;
+}
+
+.booking-reviews {
+    color: gray;
+}
+
+.price-appendix {
+    color: gray;
+    font-size: 14px;
+}
+
+
+/*  places card */
+
+.places-container {
+    background-color: rgb(233, 242, 250);
+ 
+    margin: 5px 25px;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.places-box {
+    background-color: white;
+    padding: 10px 15px;
+    flex: 1 0 33%;
+
+    display: flex;
+    flex-flow: column wrap;
+
+    border: 0.1px solid rgba(161, 161, 161, 0.404)
+   
+}
+
+.places-box img {
+    width: 99px;
+    height: 102px;
+    margin-left: -8px;
+}
+
+.places-box p {
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.places-box a {
+    text-decoration: none;
+    color: rgb(63, 147, 216);
+    font-weight: bolder;
+}
+
+/* real estate card */
+
+.res-card {
+    background-color: white;
+    margin: 5px auto;
+    max-width: 440px;
+
+    box-shadow: 5px 11px 40px 5px;
+    border-radius: 5px;
+}
+
+.res-cover {
+    display: flex;
+}
+
+.res-cover-img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.res-fav-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: -30px;
+}
+
+.res-info {
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.res-info h5 {
+    margin-block-end: 0px;
+    color: rgb(63, 61, 63);
+    font-weight: 800;
+    font-size: 13px;
+}
+
+
+.res-price {
+    font-size: 24px;
+    margin-block-end: 2px;
+    margin-block-start: 9px;
+
+
+}
+
+.res-address {
+    color: gray;    
+    margin-block-start: 4px;
+
+}
+
+.res-rooms {
+    display: flex;
+    flex-flow: row;
+    gap: 45px;
+    border: 1px solid rgb(224, 222, 222);
+    padding: 12px 15px;
+}
+
+.res-bedroom {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.res-bathroom {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+
+
+}
+
+.realtor-agent {
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(243, 244, 252);
+    gap: 0px;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.agent-info {
+    margin: 3px 0px 3px 15px;
+}
+
+.agent-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.agent-info p {
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.agent-name-phone {
+    align-self: flex-end;
+}
+
+.agent-name-phone h5 {
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.agent-name-phone p {
+    font-size: 13px;
+    color: gray;
+    margin-top: 8px;
+}
